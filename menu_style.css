@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto;
+    background: #2F3132;
+}
+
+/*.clr_1 {
+    border: 3px solid blue;
+}
+
+.clr {
+    border: 3px solid red;
+}*/
+
+.logo {
+    width: 130px;
+    height: 38px;
+}
+
+.close_top {
+    height: 30px;
+    width: 31px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.header {
+    margin-left: 123px;
+}
+
+.close {
+    margin-left: 64px;
+    margin-right: 15px;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #C4c4c4;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.main_buttons {
+    margin-top: 148px;
+}
+
+@media (min-width: 768px) {
+
+    .close_top {
+        height: 61px;
+        width: 61px;
+        margin-right: 65px;
+    }
+
+    .logo {
+        height: 72px;
+        width: 240px;
+    }
+
+    .header_top {
+        margin-top: 64px;
+    }
+
+    .header {
+        margin-left: 327px;
+    }
+
+    .close {
+        margin-left: 148px;
+        margin-right: 64px;
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .buttons {
+        margin-bottom: 59px;
+    }
+
+    .main_buttons {
+        margin-top: 123px;
+    }
+}
